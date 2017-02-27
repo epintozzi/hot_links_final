@@ -1,8 +1,9 @@
 <div class="container">
   <h2>Welcome to Hot Reads</h2>
 
-  <% @links.each do |link| %>
-    <%= link.url %>
+  <% @links.each do |link, count| %>
+    <%= link %> - <%= count %>
+    <hr>
   <% end %>
 
 </div>
