@@ -16,7 +16,7 @@ class BunnyService
 
   def receive_link
     @receive_read.subscribe do |delivery_info, metadata, payload|
-      puts payload
+      link = Link.create(url: payload)
     end
   end
 

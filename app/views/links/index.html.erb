@@ -1,4 +1,8 @@
 <div class="container">
   <h2>Welcome to Hot Reads</h2>
 
+  <% @links.each do |link| %>
+    <%= link.url %>
+  <% end %>
+
 </div>
