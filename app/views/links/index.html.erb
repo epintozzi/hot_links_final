@@ -2,8 +2,10 @@
   <h2>Welcome to Hot Reads</h2>
 
   <% @links.each do |link, count| %>
-    <%= link %> - <%= count %>
-    <hr>
+    <div class="link-item">
+      <%= link_to link, link %> - <%= count %>
+      <hr>
+    </div>
   <% end %>
 
 </div>
