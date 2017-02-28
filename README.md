@@ -1,24 +1,21 @@
-# README
+# Hot Reads
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hot Reads is an app that aggregates popular links that users have stored and read in their URLockBox app.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+This app uses ruby version 2.3.1 and Rails 5.0.0.1
 
-* System dependencies
+### Installation
 
-* Configuration
+ - clone down this repo `git clone git@github.com:epintozzi/hot_links_final.git`
+ - run `bundle install`
 
-* Database creation
+### Testing
 
-* Database initialization
+- Testing is done with Rspec and capybara and is installed with Bundle.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Using the app
 
-* Deployment instructions
-
-* ...
+This app receives data from URLockBox and shows a top ten of all links from all URLockBox users. 
